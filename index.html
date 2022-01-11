@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Meals app</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div id="name">
+            <h1>Meals App</h1>
+        </div>
+        <div id="favroits"><a href="favorites.html">Favorites</a></div>
+
+    </div>
+
+    <!-- create a container for app -->
+    <div id="container">
+        <!-- make a heading for app -->
+
+
+        <!-- create a  div for form where i have search button and search input -->
+        <div class="flex">
+            <form class="flex" id="submit">
+                <input type="text" name="search" id="search" placeholder="search for meals..">
+                <button class="search-btn" type="submit">
+					<i class="far fa-search"></i>
+				</button>
+            </form>
+        </div>
+        <!-- heading for search results -->
+        <div id="result-heading"></div>
+        <!-- this div for showing the meals which i search -->
+        <div id="meal-container">
+
+            <!-- <div id="meals" class="meals"></div> -->
+        </div>
+        <!-- this div show somw more information abut single meal  -->
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
