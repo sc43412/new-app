@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*color for h1 and search  button and search field*/
+    color: white;
+    font-family: sans-serif;
+    /* background-color: aqua; */
+    /* margin: 0px; */
+    background-image: url('img3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+}
+
+
+/*main div of the meal */
+
+#container {
+    margin: auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* header */
+
+#h1 {
+    display: flex;
+    height: 30%;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar {
+    background-color: gray;
+    padding-top: 30px;
+    text-align: center;
+    height: 20%;
+}
+
+#container {
+    height: 80%;
+}
