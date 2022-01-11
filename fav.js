@@ -1,8 +1,8 @@
-const mealContainer = document.getElementById('meal-container');
+const mealContainer = document.querySelector('#container');
+console.log(mealContainer);
 var apiurl = "https://www.themealdb.com/api/json/v1/1/lookup.php?i=";
 
 function displayStorage() {
-    mealContainer.innerHTML = "";
     let mealsItems = localStorage.getItem("meals");
     if (mealsItems) {
         let storageItems = JSON.parse(localStorage.getItem('meals'));
