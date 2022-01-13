@@ -86,6 +86,11 @@ submit.addEventListener('submit', searchMeal);
 function updateStorage(value) {
     let meals;
     meals = localStorage.getItem('meals') ? JSON.parse(localStorage.getItem('meals')) : []; // we created one array in a local storage
+    for (meal of meals) {
+        if (meal == value) {
+            return;
+        }
+    }
     meals.push(value);
     localStorage.setItem("meals", JSON.stringify(meals)); // adding meals in a array in string formate
 }
